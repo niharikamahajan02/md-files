@@ -1,14 +1,14 @@
-# responsiveness in css
+# RESPONSIVENESS IN CSS
 
-As we all know webpages can be viewed on many devices like desktops, tablets, and phones. For web pages to look attractive and eye-catching on each device , responsiveness should be used . Without this our website may look interactive in some dimensions or on some devices like laptops but may look undesirable and unorganized in other devices like phones, tablets etc.
+ As we all know webpages can be viewed on many devices like desktops, tablets, and phones. For web pages to look attractive and eye-catching on each device , responsiveness should be used . Without this our website may look interactive in some dimensions or on some devices like laptops but may look undesirable and unorganized in other devices like phones, tablets etc.
 
-We  use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen. 
+> We  use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen. 
 
-**USING MEDIA QUERIES**
+## USING MEDIA QUERIES
 
 It uses the @media rule to include a block of CSS properties only if a certain condition is true.
 
-Media queries can be used to change orientation the browser as shown in given example.
+**Media queries can be used to change orientation the browser as shown in given example.**
 
 1)@media screen and [media feature rules]
 
@@ -39,8 +39,13 @@ body {
 
 ```
 
+
+**Here, whenever screen max width will be 600px and orientation is landscape , body text will appear in green color.**
+
+In landscape its background color is "lightblue"
 <img src="ss/ss1.jpg" width="70%">
 
+In portrait its background color is "lightgreen"
 <img src="ss/ss2.jpg" width="70%">
 
 
@@ -48,7 +53,6 @@ body {
 
 
 
-Here, whenever screen max width will be 600px and orientation is landscape , body text will appear in green color.
 
 **Typical Device Breakpoints**
 ```css
@@ -111,9 +115,11 @@ div.ele {
 
 ```
 
-
+**When the browser's width is 350px wide or less, font size is 40px.**
 <img src="ss/ss3.jpg" width="70%">
 
+
+**Now font size is 20px with change in color to green.**
 <img src="ss/ss4.jpg" width="70%">
 
 
@@ -154,10 +160,17 @@ div.ele {
 
 
 ```
+**Element block is displayed.**
 
 <img src="ss/ss5.jpg" width="70%">
 
+**Element block is hidden.**
+
 <img src="ss/ss6.jpg" width="70%">
+
+
+**Refrences**
+https://www.w3schools.com/css/css_rwd_intro.asp
 
 
 
